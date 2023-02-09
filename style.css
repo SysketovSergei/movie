@@ -1,0 +1,57 @@
+h2{
+     color: rgb(255, 255, 255);
+     font-family: 'Rubik Bubbles', cursive;
+     text-align: center;
+     font-weight: normal;
+     font-size: 60px;
+     text-shadow: 0 0 10px black;
+}
+body{
+background-image: url("фон.jpg");
+background-attachment: fixed;
+background-size: cover;
+text-align: center;
+}
+div{
+     background-color: rgb(0, 255, 136);
+     width: 27%;
+     /* что бы сделать карточки средними по силе */
+     display: inline-block;
+     box-shadow: 0 0 60px black;
+     margin: 10px;
+     border-radius: 25px;
+     transition: 1s;
+     vertical-align: middle;
+}
+img{
+     width: 100%;
+}
+a{
+     font-family: 'Rubik Bubbles', cursive;
+     font-weight: normal;
+     font-size: 20px;
+background-color: rgb(163, 112, 211);
+border-radius: 20px;
+text-decoration: none;     
+color: rgb(62, 223, 97);
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 20px;
+display: inline-block;
+margin-bottom: 20px;
+transition: 0.5s;
+}
+
+h4{
+     color:#ffffff ;
+     font-size: 20px;
+     font-family: 'Rubik Bubbles';
+     font-weight: normal;
+}
+
+a:hover{
+     transform: scale(1.1);
+}
+div:hover{
+background-color: gold;
+}
